@@ -1,0 +1,201 @@
+
+
+body {
+    background: white;
+    color: black;
+    text-align: center;
+}
+
+
+
+body {
+font-family: 'Advent Pro', sans-serif;
+font-size: 15px;
+
+}
+
+h1{
+    font-size: 70px;
+    margin: 0px;
+    margin-top:5px; 
+    margin-left: 195px;
+}
+
+
+h2{
+    font-size: 20px;
+    margin-bottom: 35px;
+    margin-left: 190px;
+}
+
+.rectangle {
+    display:inline-block;
+    width:100px;
+    height:1px;
+    background:black;
+    margin-bottom: 20px;
+    margin-left: 190px;
+}
+
+.NavBar{
+    margin-left: 40px;
+    padding: 7px;
+    overflow: hidden;
+    width: 100%;
+    background-color:darkred;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 93%; 
+    padding: 0;
+}
+
+li {
+    margin: 1%;
+    display: inline;
+}
+
+
+.NavBar a:link, .NavBar a:visited {
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.NavBar a:hover, .NavBar a:active {
+    background-color: #9B6A70;
+}
+
+
+
+.Logistics{
+    padding: 5px;
+    width: 100%;
+    background-color:black;
+    font-size: 11px;
+    display: inline-block;
+    
+}
+
+.Logistics a:link,.Logsitcs a:visited{
+    color:floralwhite;
+    text-align: center;
+
+}
+
+.Logsitics a:hover, .Logistics a:active {
+    background-color: #FFFFFF;
+}
+
+
+
+#tfheader{
+		background-color:#FFF;
+	}
+
+	#tfnewsearch{            
+    top:1px;
+    right: 1px;
+    display: inline-block;
+    position: absolute;
+        
+	}
+	.tftextinput{
+		margin: 0;
+        font-family: 'Advent Pro', sans-serif;
+		font-size:12px;
+		border:1px solid #000; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+    }
+
+
+	.tfbutton {
+		margin: 0;
+		padding: 3px 3px;
+        font-family: 'Advent Pro', sans-serif;		
+        font-size:12px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #9B6A70; border-right:0px;
+		background: #9B6A70;
+		background: -webkit-gradient(linear, left top, left bottom, from(darkred), to(#050001));
+		background: -moz-linear-gradient(top,  #9B6A70,  #9B6A70);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: #9B6A70;
+		background: -webkit-gradient(linear, left top, left bottom, from(#9B6A70), to(#9B6A70));
+		background: -moz-linear-gradient(top,  #9B6A70,  #9B6A70);
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+
+a:hover, a:active {
+    background-color: #9B6A70;
+}
+
+
+img{
+top:8px;
+    left: 2px;
+height: 90px;
+    float: left;
+    margin-left: 20px;
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+}
+
+#rectangle{
+    width: 100px;
+    height: 1000px;
+    background:#A1A1A1;
+}
+
+    .top {
+        position:absolute;
+        left:0; right:0;
+        height: 300px;
+    }
+    .left {
+        position:absolute;
+        left:0; top:0px; bottom:;
+        width: 100px;
+    }
+    .main {
+        position: absolute;
+        left:100px; top:300px; right:0; bottom:0;
+    }
+
+.main { background: #FFFFFF ; }
+
+
+
+
+
+
+
+
+
+
+
+
+
