@@ -55,6 +55,8 @@ ul {
     padding: 0;
 }
 
+
+
 li {
     margin: 1%;
     display: inline;
@@ -79,19 +81,26 @@ li {
     padding: 5px;
     width: 100%;
     background-color:black;
-    font-size: 11px;
+    font-size: 12px;
     display: inline-block;
+    margin-left: 0;
+    text-align: left;
+    margin-left: 50px;
     
 }
 
-.Logistics a:link,.Logsitcs a:visited{
-    color:floralwhite;
+.Logistics a:link,.Logistics a:visited{
+    color:white;
     text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+
 
 }
 
-.Logsitics a:hover, .Logistics a:active {
-    background-color: #FFFFFF;
+.Logistics a:hover, .Logistics a:active {
+    background-color: #A1A1A1;
 }
 
 
