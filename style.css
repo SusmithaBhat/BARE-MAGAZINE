@@ -33,7 +33,7 @@ h1{
   margin: 0px;
 	display: inline-block;
 	margin-top: 10px;
-	margin-left: 170px
+	margin-left: 70px
 }
 
 
@@ -41,7 +41,7 @@ h1{
 h2{
   font-size: 20px;
   margin-bottom: 35px;
-  margin-left: 190px;
+  margin-left: 70px;
 }
 
 
@@ -51,8 +51,8 @@ h2{
   height:1px;
   background:black;
 	margin-bottom: 25px;
-	margin-left: 1px;
-	margin-right: -165px;
+	margin-left: 10px;
+	margin-right: -60px;
 }
 
 
@@ -196,7 +196,7 @@ a:hover, a:active {
 /* Image styling and social media icons begins */
 
 #logo {
-  top:8px;
+  top:25px;
   left: 2px;
   height: 90px;
   float: left;
@@ -207,7 +207,7 @@ a:hover, a:active {
 }
 
 #facebook {
-  top:115px;
+  top:132px;
 	left:0px;
   float: left;
   margin-left: 20px;
@@ -216,7 +216,7 @@ a:hover, a:active {
   z-index: 1;
 }
 #pinterest {
-  top:145px;
+  top:162px;
   left: 0px;
   float: left;
   margin-left: 20px;
@@ -225,7 +225,7 @@ a:hover, a:active {
   z-index: 1;
 }
 #twitter {
-  top:145px;
+  top:162px;
   left: 29px;
   float: left;
   margin-left: 20px;
@@ -234,7 +234,7 @@ a:hover, a:active {
   z-index: 1;
 }
 #instagram {
-  top:114px;
+  top:131px;
   left: 29px;
   float: left;
   margin-left: 20px;
@@ -334,6 +334,7 @@ div.slide:target {
 
 .header {
   position:absolute;
+	top: 0;
   left:0; right:0;
   height: 195px;
 }
