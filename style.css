@@ -302,6 +302,7 @@ div.slide {
 #controls {
     margin: 1em 0;
     text-align: center;
+		margin-left: 150px;
 }
 
 #controls a {
