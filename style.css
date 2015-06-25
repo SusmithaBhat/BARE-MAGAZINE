@@ -193,6 +193,8 @@ a:hover, a:active {
 }
 
 
+/* Image styling and social media icons begins */
+
 #logo {
   top:8px;
   left: 2px;
@@ -204,6 +206,125 @@ a:hover, a:active {
   z-index: 1;
 }
 
+#facebook {
+  top:115px;
+	left:0px;
+  float: left;
+  margin-left: 20px;
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+}
+#pinterest {
+  top:145px;
+  left: 0px;
+  float: left;
+  margin-left: 20px;
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+}
+#twitter {
+  top:145px;
+  left: 29px;
+  float: left;
+  margin-left: 20px;
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+}
+#instagram {
+  top:114px;
+  left: 29px;
+  float: left;
+  margin-left: 20px;
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+}
+
+/* Image styling and social media icons ends */
+
+
+
+
+/* Image Carousel styling begins */
+
+#slider {
+    width: 650px;
+    height: 350px;
+    margin: 2em auto;
+    position: relative;
+    border: 4px solid #bbb;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px #ddd;
+		top: 250px;
+	  left: 50px;
+}
+
+div.slide {
+    width: 650px;
+    height: 350px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    background: #ccc;
+    line-height: 300px;
+    font-size: 2em;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    opacity: 0;
+}
+
+#s1 {
+    left: 0;
+}
+
+#s2 {
+    left: 500px;
+}
+
+#s3 {
+    left: 1500px;
+}
+
+#s4 {
+    left: 2000px;
+}
+
+#s5 {
+    left: 2500px;
+}
+
+#controls {
+    margin: 1em 0;
+    text-align: center;
+}
+
+#controls a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 50px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
+    line-height: 32px;
+		margin-top: 250px;
+}
+
+div.slide:target {
+    left: 0;
+    opacity: 1;
+    z-index: 10;
+}
+
+/* Image Carousel styling ends */
+
 #rectangle{
   width: 100px;
   height: 1000px;
@@ -213,7 +334,7 @@ a:hover, a:active {
 .header {
   position:absolute;
   left:0; right:0;
-  height: 300px;
+  height: 195px;
 }
 
 
@@ -225,10 +346,9 @@ a:hover, a:active {
 }
 
 .main {
-	background: #FFFFFF;
-  position: absolute;
-  left:100px;
-  top:300px;
-  right:0;
-  bottom:0;
+	position: absolute;
+	left: 100px;
+	top: 235px;
+	width: 1065px;
 }
+
