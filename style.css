@@ -29,7 +29,7 @@ body {
 
 
 h1{
-  font-size: 70px;
+  font-size: 80px;
   margin: 0px;
 	display: inline-block;
 	margin-top: 10px;
@@ -39,7 +39,7 @@ h1{
 
 
 h2{
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 35px;
   margin-left: 70px;
 }
@@ -258,8 +258,12 @@ a:hover, a:active {
     border: 4px solid #bbb;
     overflow: hidden;
     box-shadow: 2px 2px 2px #ddd;
-		top: 250px;
 	  left: 50px;
+		display: inline-block;
+		margin-right: 160px;
+		margin-top: 30px;
+
+
 }
 
 div.slide {
@@ -277,54 +281,104 @@ div.slide {
     -ms-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
     opacity: 0;
+		z-index:1;
 }
 
 #s1 {
     left: 0;
+		z-index: 1;
 }
 
 #s2 {
     left: 650px;
+		z-index: 1;
 }
 
 #s3 {
     left: 1300px;
+		z-index: 1;
 }
 
 #s4 {
     left: 1950px;
+		z-index: 1;
 }
 
 #s5 {
     left: 2600px;
+		z-index: 1;
 }
 
 #controls {
-    margin: 1em 0;
     text-align: center;
-		margin-left: 150px;
+		margin-left: 1px;
+		z-index: 1;
+		margin-bottom:10px;
 }
 
 #controls a {
     display: inline-block;
     width: 32px;
     height: 32px;
-    margin-right: 50px;
-    background: #000;
+    margin-right: 70px;
+    background:darkred;
     color: #fff;
     text-decoration: none;
-    border-radius: 50%;
+		border-radius: 50%;
     line-height: 32px;
-		margin-top: 250px;
+		z-index: 1;
 }
 
 div.slide:target {
     left: 0;
     opacity: 1;
     z-index: 10;
+
 }
 
+#morningafter {
+height: 350px;
+width: 650px;
+}
+#aprilshowers{
+height: 350px;
+width: 650px;
+}
+#carmina{
+height: 350px;
+width: 650px;
+}
+#nyfw{
+height: 350px;
+width: 650px;
+}
+#drakenatural{
+height: 350px;
+width: 650px;
+}
 /* Image Carousel styling ends */
+
+#recentarticlestitle{
+font-size: 25px;
+text-align: left;
+margin-left: 92px;
+background: #A1A1A1;
+font-weight: bold;
+width:1330px;
+
+
+}
+
+#carouselbackground{
+margin-top: 215px;
+margin-left: 90px;
+width: 100%;
+height: 450px;
+background: #000000;
+display: inline-block;
+
+
+}
 
 #rectangle{
   width: 100px;
