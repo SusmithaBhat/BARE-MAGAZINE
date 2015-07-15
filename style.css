@@ -58,7 +58,7 @@ h2{
 
 
 .navbar{
-  margin-left: 40px;
+  margin-left: 65px;
   padding: 7px;
   overflow: hidden;
   width: 100%;
@@ -103,7 +103,7 @@ li {
 .logistics {
   width: 100%;
   display: inline-block;
-  margin-left: 50px;
+  margin-left: 100px;
   padding: 5px;
   
   background-color:black;
@@ -198,46 +198,46 @@ a:hover, a:active {
 #logo {
   top:25px;
   left: 2px;
-  height: 90px;
+  height: 110px;
   float: left;
-  margin-left: 20px;
+  margin-left: 40px;
   display: inline-block;
   position: absolute;
   z-index: 1;
 }
 
 #facebook {
-  top:132px;
+  top:140px;
 	left:0px;
   float: left;
-  margin-left: 20px;
+  margin-left: 43px;
   display: inline-block;
   position: absolute;
   z-index: 1;
 }
 #pinterest {
-  top:162px;
+  top:175px;
   left: 0px;
   float: left;
-  margin-left: 20px;
+  margin-left: 43px;
   display: inline-block;
   position: absolute;
   z-index: 1;
 }
 #twitter {
-  top:162px;
+  top:175px;
   left: 29px;
   float: left;
-  margin-left: 20px;
+  margin-left: 49px;
   display: inline-block;
   position: absolute;
   z-index: 1;
 }
 #instagram {
-  top:131px;
+  top:140px;
   left: 29px;
   float: left;
-  margin-left: 20px;
+  margin-left: 49px;
   display: inline-block;
   position: absolute;
   z-index: 1;
@@ -260,7 +260,7 @@ a:hover, a:active {
     box-shadow: 2px 2px 2px #ddd;
 	  left: 50px;
 		display: inline-block;
-		margin-right: 160px;
+		margin-right: 120px;
 		margin-top: 30px;
 
 
@@ -311,7 +311,7 @@ div.slide {
 
 #controls {
     text-align: center;
-		margin-left: 1px;
+		margin-left: 60px;
 		z-index: 1;
 		margin-bottom:10px;
 }
@@ -359,13 +359,13 @@ width: 650px;
 /* Image Carousel styling ends */
 
 #recentarticlestitle{
-font-size: 25px;
+font-size: 22px;
 text-align: left;
-margin-left: 92px;
-background: #A1A1A1;
+margin-left: 142px;
+background: #555555;
 font-weight: bold;
-width:1330px;
-
+width:100%;
+color: white;
 
 }
 
@@ -373,7 +373,7 @@ width:1330px;
 margin-top: 215px;
 margin-left: 90px;
 width: 100%;
-height: 450px;
+height: 460px;
 background: #000000;
 display: inline-block;
 
@@ -381,7 +381,7 @@ display: inline-block;
 }
 
 #rectangle{
-  width: 100px;
+  width: 150px;
   height: 1000px;
   background:#A1A1A1;
 }
